@@ -6,8 +6,8 @@
         <actor id="id834679" prototype="id103524">
           <attributes>
             <point id="position">
-              <real id="x">154.5</real>
-              <real id="y">147</real>
+              <real id="x">151</real>
+              <real id="y">160</real>
             </point>
             <size id="size">
               <real id="width">75</real>
@@ -43,8 +43,8 @@
       <real id="width">480</real>
       <real id="height">320</real>
     </size>
-    <boolean id="wrapX">true</boolean>
-    <boolean id="wrapY">true</boolean>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
     <point id="gravity">
       <real id="x">0</real>
       <real id="y">0</real>

@@ -42,6 +42,19 @@
             </attributes>
           </predicate>
         </condition>
+        <condition id="id185694" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">self.attributes.position.x</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&lt;</text>
+              <real id="RHS">440</real>
+            </attributes>
+          </predicate>
+        </condition>
       </conditions>
       <behaviors>
         <behavior id="id495787" class="MoveBehavior" enabled="true">
@@ -72,6 +85,19 @@
             <attributes>
               <text id="mode">down</text>
               <text id="keyString">left</text>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id622352" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">self.attributes.position.x</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&lt;</text>
+              <real id="RHS">0</real>
             </attributes>
           </predicate>
         </condition>
@@ -108,6 +134,19 @@
             </attributes>
           </predicate>
         </condition>
+        <condition id="id847858" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">self.attributes.position.y</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&lt;</text>
+              <real id="RHS">280</real>
+            </attributes>
+          </predicate>
+        </condition>
       </conditions>
       <behaviors>
         <behavior id="id377550" class="MoveBehavior" enabled="true">
@@ -138,6 +177,19 @@
             <attributes>
               <text id="mode">down</text>
               <text id="keyString">down</text>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id459443" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">self.attributes.position.y</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&lt;</text>
+              <real id="RHS">10</real>
             </attributes>
           </predicate>
         </condition>
