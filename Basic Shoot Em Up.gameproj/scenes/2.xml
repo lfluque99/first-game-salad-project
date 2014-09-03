@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.17" GSCVersion="0.9.91" id="id781812">
+<scene PGFVersion="0.19" GSCVersion="0.10.5" id="id676837">
   <layers>
-    <layer id="id433223">
+    <layer id="id513052">
       <actors>
-        <actor id="id366184" prototype="id591440">
+        <actor id="id834679" prototype="id103524">
           <attributes>
             <point id="position">
-              <real id="x">239</real>
-              <real id="y">207.5</real>
-            </point>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id315793" prototype="id289207">
-          <attributes>
-            <point id="position">
-              <real id="x">240</real>
-              <real id="y">82</real>
+              <real id="x">154.5</real>
+              <real id="y">147</real>
             </point>
             <size id="size">
-              <real id="width">100</real>
-              <real id="height">45</real>
+              <real id="width">75</real>
+              <real id="height">50</real>
             </size>
+            <angle id="rotation">0</angle>
+            <image id="image">ship</image>
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -49,14 +37,14 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Victory</text>
+    <text id="name">Aerial combat scene</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>
       <real id="height">320</real>
     </size>
-    <boolean id="wrapX">false</boolean>
-    <boolean id="wrapY">false</boolean>
+    <boolean id="wrapX">true</boolean>
+    <boolean id="wrapY">true</boolean>
     <point id="gravity">
       <real id="x">0</real>
       <real id="y">0</real>
@@ -78,7 +66,7 @@
       </size>
       <size id="trackingArea">
         <real id="width">400</real>
-        <real id="height">240</real>
+        <real id="height">260</real>
       </size>
       <real id="rotation">0</real>
     </rect>
