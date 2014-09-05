@@ -97,7 +97,7 @@
           <predicate type="number">
             <attributes>
               <text id="operator">&lt;</text>
-              <real id="RHS">0</real>
+              <real id="RHS">440</real>
             </attributes>
           </predicate>
         </condition>
@@ -168,18 +168,6 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id727094" eventType="key" pluginPredicateTypeIndex="0" class="Key">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="key">
-            <attributes>
-              <text id="mode">down</text>
-              <text id="keyString">down</text>
-            </attributes>
-          </predicate>
-        </condition>
         <condition id="id459443" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
           <attributes>
             <index id="conditionType">1</index>
@@ -189,7 +177,19 @@
           <predicate type="number">
             <attributes>
               <text id="operator">&lt;</text>
-              <real id="RHS">10</real>
+              <real id="RHS">280</real>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id727094" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">down</text>
             </attributes>
           </predicate>
         </condition>
@@ -332,6 +332,7 @@
             <text id="RHS">
               <expression>
                 <reference keypath="game.attributes.id884616" />
+                <string xml:space="preserve">-10</string>
               </expression>
             </text>
           </attributes>
